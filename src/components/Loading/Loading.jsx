@@ -14,8 +14,9 @@ const Loading = () => {
     >
       <span
         style={{
-          color: "green",
+          color: "blue",
           fontWeight: "bolder",
+          fontSize: "large",
           letterSpacing: "2px",
         }}
       >
