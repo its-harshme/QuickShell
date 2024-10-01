@@ -1,0 +1,46 @@
+.cardContainer{
+    width: 100%;
+    border: 1px solid rgb(214, 213, 213);
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background: white;
+}
+
+.cardContainer > *{
+    width: 100%;
+}
+
+.showStatus{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 8px;
+    height: 8px;
+    background: silver;
+    border-radius: 50%;
+    border : 2px solid white
+}
+.online{
+    background: #08a500;
+}
+
+.cardTags{
+    font-size: small;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.tags{
+    width: max-content;
+    padding: 2px 4px;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+.cardTitle{
+    font-size: small;
+}
+.cardHeading{
+    font-size: small;
+}
